@@ -1,0 +1,66 @@
+body {
+
+    margin:0;
+    padding:0;
+    color: black;
+    background-color: #efeee7;
+   
+}
+
+header {
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+}
+
+div {
+
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+
+}
+
+.column {
+
+    float: left;
+    padding: 15px;
+    
+ 
+
+}
+
+#profile {
+
+    width: 50%;
+    margin-left: 30px;
+}
+
+#contact {
+
+    width: 20%;
+    margin-left: -45px;
+}
+
+.sub_column {
+
+    float: left;
+
+    
+}
+
+#intro {
+
+    margin-left: 10px;
+}
+
+
+
+
