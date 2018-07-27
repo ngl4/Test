@@ -4,7 +4,7 @@
 <head>
     <title>Student Bio</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="Basic_Sample.css">
+    <link rel="stylesheet" type="text/css" href="csstest.css">
 
 </head>
 
@@ -15,22 +15,29 @@
     </header>
 
     <div>
-        <section>
+        <section class="column" id="profile">
 
+
+            
             <h2>Your Name</h2>
             <br>
-            <img src="Lam.jpg" height="200" width="200" />
-            <br>
-            <p>Hi! I am Cindy. I am so excited to be part of the second cohorts at UPenn Coding Bootcamp 2018</p>
-            <ul>
-                <li id="first">First Thing</li>
-                <li class="big">Second Thing</li>
-                <li class="big">Third Thing</li>
-            </ul>
+            <section class="sub_column">
+                <img src="Lam.jpg" height="200" width="200" />
+                <br>
+            </section>
+
+            <section class="sub_column" id="intro">
+                <p>Hi! I am Cindy. I am so excited to be part of the second cohorts <br>˜at UPenn Coding Bootcamp 2018</p>
+                <ul>
+                    <li id="first">First Thing</li>
+                    <li class="big">Second Thing</li>
+                    <li class="big">Third Thing</li>
+                </ul>
+            </section>
 
         </section>
 
-        <section>
+        <section class="column" id="contact">
             <h2>Contact Info</h2>
             <ul>
                 <li>
