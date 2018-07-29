@@ -1,0 +1,99 @@
+/**
+ * Float Layout Activity: Cindy's Code 
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  /* margin: 0;
+  padding: 0; */
+  font-size: 24px;
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ccc;
+}
+
+section {
+  float: left;
+  width: 33.3%;
+
+}
+
+#left {
+  background-color: #666666;
+  color: white;
+  padding: 20px;
+}
+
+#middle {
+  background: grey;
+  color: white;
+  padding: 20px;
+}
+
+#right {
+  background-color: #666666;
+  color:white;
+  padding: 20px;
+}
+
+#full {
+  overflow: auto;
+  clear: both;
+  float: right;
+  width: 100%;
+  padding: 20px;
+  background-color: pink;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+aside {
+  background-color: blue;
+  color: black;
+  float: left;
+  padding: 100px;
+  margin-left: 30px;
+    
+}
+
+#sec {
+  /* background-color: pink;
+  height: 30px; */
+  
+}
+
+#division {
+  background-color: #6ea3da;
+  color: black;
+  padding: 20px; 
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #cccccc;
+  color: black;
+  padding: 20px;
+  clear: both;
+}
+
+ /*
+.clearfix2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+*/
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
