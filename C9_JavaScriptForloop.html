@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+    var word = "b a n n a n a s";
+    var word2 = "_ _ z _ _ _ _ _";
+var guess = "n";
+var index;
+
+String.prototype.replaceAt=function(index, replacement) {
+    return this.substr(0, index) + replacement+ this.substr(index + replacement.length);
+}
+
+
+
+
+for (var i=0 ; i < word.length; i++) {
+
+    if (guess === word[i]) {
+
+        console.log(i);
+
+        console.log (word.charAt(i));
+
+        console.log (word2.replaceAt(word2[i], word.charAt(i)));
+
+        
+    }
+}
+
+
+
+
+// for (var index = word.indexOf(guess);
+//      index > 0;
+//      index = word.indexOf(guess, index + 1))
+// {
+//     console.log(index);
+//     console.log(word[index]);
+
+ 
+//     var char = word2.charAt(index); //"_"
+//     console.log(char);
+
+
+//     console.log(word2.replace(char,guess)); //print "n _ _ _ _ _ _ _"
+
+
+    
+
+    //I want it to print at the specific index, but It still prints in the first one only
+    
+
+
+    
+    </script>
+</body>
+</html>
