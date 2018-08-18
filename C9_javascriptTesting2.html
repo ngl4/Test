@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+        var word = "b a n n a n a s";
+    var word2 = "_ _ _ _ _ _ _ _";
+var guess = "n";
+var index;
+
+
+
+    String.prototype.replaceAt=function(index, char) {
+    var a = this.split("");
+    a[index] = char;
+    return a.join("");
+}
+
+for (var i=0 ; i < word.length; i++) {
+
+if (guess === word[i]) {
+
+    console.log(i);
+
+    console.log (word.charAt(i));
+
+    var char = word.charAt(i);
+
+
+    word2 = word2.replaceAt(i, char);
+
+    console.log(word2);
+
+    
+
+    
+}
+}
+
+
+
+
+</script>
+</body>
+</html>
