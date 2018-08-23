@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="div">Hello Friend!!!</div>
+    <script>
+
+        var targetDiv = document.getElementById("div");
+
+
+        // function appendChildFunction(text) {
+
+
+        // var myDiv =  document.createElement("div"); 
+
+        // myDiv.textContent = text; 
+
+        // console.log(myDiv.textContent);
+
+        // targetDiv.appendChild(myDiv);
+
+
+        // };
+
+
+        // console.log(appendChildFunction("I will be Fine!!!"));
+        // console.log(appendChildFunction("They will be Fine!!!"));
+        // console.log(appendChildFunction("We will be Fine!!!"));
+
+
+               var myDiv =  document.createElement("div"); 
+
+        myDiv.textContent = "hello"; 
+
+        console.log(myDiv.textContent);
+
+        targetDiv.appendChild(myDiv);
+
+        myDiv.setAttribute("id", "Div1");
+
+
+
+        var myDiv2 =  document.createElement("div"); 
+
+myDiv2.textContent = "hello2"; 
+
+console.log(myDiv2.textContent);
+
+targetDiv.appendChild(myDiv2);
+
+myDiv2.setAttribute("id", "Div2");
+
+
+
+
+var myDiv3 =  document.createElement("div"); 
+
+myDiv3.textContent = "hello3"; 
+
+console.log(myDiv3.textContent);
+
+targetDiv.appendChild(myDiv3);
+
+ myDiv3.setAttribute("id", "Div3");
+
+
+ console.log(myDiv2.parentNode.removeChild(myDiv2));
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+    
+    </script>
+</body>
+</html>
