@@ -5,4 +5,4 @@ Just for testing
 
 Here is a gif: 
 
-![Alt Text](https://github.com/ngl4/Test/blob/master/test.gif)
+![Alt Text](https://github.com/ngl4/Test/blob/master/test.gif | width=100)
