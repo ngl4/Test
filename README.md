@@ -5,4 +5,6 @@ Just for testing
 
 Here is a gif: 
 
-![Alt Text |512x397,20%](https://github.com/ngl4/Test/blob/master/test.gif)
+<img src="https://github.com/ngl4/Test/blob/master/test.gif" width="100" height="100">
+
+![Alt Text](https://github.com/ngl4/Test/blob/master/test.gif)
